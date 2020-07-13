@@ -12,4 +12,4 @@ install:
   - pip install pyinstaller
 
 script:
-  - pyinstaller.exe --onefile ./pysizer/pysizer.py
+  - cd pysizer && pyinstaller --onefile pysizer.py
