@@ -72,8 +72,6 @@ def resize(file, resize_folder, height, width):
     i = Image.open(file)
     i.thumbnail((height, width))
     i.save(f'{resize_folder}/{file}')
-    return 0
-
 
 # Start Program
 if __name__ == '__main__':

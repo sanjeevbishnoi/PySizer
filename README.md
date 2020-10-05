@@ -8,22 +8,16 @@
 
 # Quick Start
 
-- Install dependencies
-
+- Install the project with pip
 ```bash
-pip install -r requirements.txt
+pip install git+https://github.com/kumaraditya303/PySizer.git
 ```
+- Project will now be available as a command line utility 
 
-- Create executable
-
-```bash
-pyinstaller --onefile ./pysizer/pysizer.py
-```
-
-- Get Help
+- Get Help 
 
 ```bash
-$ python .\pysizer.py --help
+$ pysizer --help
 Usage: pysizer.py [OPTIONS]
 
   Main PySizer function which with ThreadPoolExecutor creates threads for
