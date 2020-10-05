@@ -16,7 +16,7 @@ pip install git+https://github.com/kumaraditya303/PySizer.git
 
 - Get Help 
 
-```bash
+```text
 $ pysizer --help
 Usage: pysizer.py [OPTIONS]
 

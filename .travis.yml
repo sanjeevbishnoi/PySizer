@@ -7,8 +7,5 @@ python:
   - "3.8"
   - "nightly"
 
-install:
-  - pip install pyinstaller
-
 script:
-  - cd pysizer && pyinstaller --onefile pysizer.py
+  - pip install .
